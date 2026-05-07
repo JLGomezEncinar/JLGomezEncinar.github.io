@@ -1,0 +1,28 @@
+---
+import { site } from '../../data/site';
+---
+
+<section id="experience" class="mb-24 scroll-mt-24 lg:mb-32 lg:scroll-mt-8" aria-labelledby="experience-heading">
+  <h2 id="experience-heading" class="section-heading">Experience</h2>
+  <div class="space-y-4">
+    {
+      site.experience.map((item) => (
+        <article class="panel-card group grid gap-4 md:grid-cols-[9rem_1fr] md:gap-6">
+          <p class="pt-1 font-mono text-xs uppercase tracking-wider text-slate">{item.period}</p>
+          <div class="space-y-3">
+            <h3 class="text-base font-semibold text-slate-lightest transition-colors group-hover:text-accent">
+              {item.title} · {item.company}
+            </h3>
+            <p class="body-copy">{item.summary}</p>
+            <ul class="list-disc space-y-1 pl-5 text-sm text-slate">
+              {item.highlights.map((point) => <li>{point}</li>)}
+            </ul>
+            <ul class="flex flex-wrap gap-3 pt-1">
+              {item.tech.map((tech) => <li class="font-mono text-xs text-accent">{tech}</li>)}
+            </ul>
+          </div>
+        </article>
+      ))
+    }
+  </div>
+</section>
