@@ -48,15 +48,13 @@
     }
   }
 
-  ::view-transition-old(root),
-  ::view-transition-new(root) {
-    background-color: transparent;
-    animation: fadeOut 0.4s ease-out forwards;
-  }
+::view-transition-old(root) {
+  animation: fadeOut 0.4s ease-out forwards;
+}
 
-  ::view-transition-new(root) {
-    animation: fadeIn 0.6s ease-in forwards;
-  }
+::view-transition-new(root) {
+  animation: fadeIn 0.6s ease-in forwards;
+}
 
   @keyframes fadeOut {
     from { opacity: 1; }

@@ -5,10 +5,8 @@ import Footer from '../components/Footer.astro';
 import FeaturedProjects from '../components/FeaturedProjects.astro';
 import Experience from '../components/Experience.astro';
 import { site } from '../../data/site';
-import { getCollection } from 'astro:content';
-import type { CollectionEntry } from 'astro:content';
 
-const projects = ((await getCollection('projects')) as CollectionEntry<'projects'>[]).sort((a, b) => a.data.order - b.data.order);
+const projects = site.featuredProjects;
 ---
 
 <Layout title={site.meta.title} description={site.meta.description}>
