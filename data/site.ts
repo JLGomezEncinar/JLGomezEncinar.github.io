@@ -9,19 +9,19 @@
  */
 
 export const site = {
-  url: 'https://example.com',
+  url: 'https://JLGomezEncinar.github.io',
   meta: {
-    title: 'Alex Morgan | Full-stack engineer',
+    title: 'José Luis Gómez | Desarrollador de Aplicaciones Multiplataformas',
     description:
       'Portfolio example: shipping reliable web products with clear architecture, tests, and delivery practices.',
   },
   hero: {
-    name: 'Alex Morgan',
-    role: 'Full-stack engineer',
-    tagline: 'From product intent to production — pragmatic systems, accessible UI, and maintainable code.',
-    contact: 'Open to collaborations and senior IC roles on product-minded teams.',
+    name: 'José Luis Gómez',
+    role: 'Desarrollador de Aplicaciones Multiplataformas',
+    tagline: 'Comenzando con el desarrollo, intentando seguir buenas prácticas creando código sostenible.',
+    contact: 'Abierto a la colaboración con cualquier equipo de desarrollo de software.',
     avatarSrc: '/favicon.svg',
-    avatarAlt: 'Alex Morgan',
+    avatarAlt: 'José Luis Gómez',
   },
   about: {
     paragraphs: [
