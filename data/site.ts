@@ -30,20 +30,20 @@ export const site = {
       {
         heading: 'Example focus areas',
         bullets: [
-          'Designing APIs and client boundaries with typed contracts',
-          'Performance budgets, caching, and pragmatic observability',
-          'Shipping incrementally with feature flags and rollback-friendly deploys',
+          'Experiencia con APIs y diferentes bases de datos',
+          'Conocimiento de diferentes lenguajes de programación',
+          'Buena utilización de los agentes de IA',
         ],
       },
       {
         heading: 'Sample stack',
-        techItems: ['TypeScript', 'Astro', 'Tailwind CSS', 'Node', 'Vitest'],
+        techItems: ['React', 'Java', 'Python', 'Kotlin'],
       },
     ],
   },
   experiences: [
     {
-      period: '2025',
+      period: '2026',
       title: 'Lead Product Designer',
       company: 'Lumen Studio',
       summary:
