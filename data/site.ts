@@ -25,8 +25,8 @@ export const site = {
   },
   about: {
     paragraphs: [
-      'A brief, compelling introduction about who you are and what you do. Mention your core philosophy, your passion for building digital products, and your drive for creating efficient, high-impact solutions.',
-      'I care about clear boundaries between modules, automated checks in CI, and documentation that helps the next contributor ship safely.',
+      'Recién terminado el grado de DAM en Junio de 2026, mostrando los diferentes proyectos desarrollados durante mis estudios y a posteriori.',
+      'Me preocupo de desarrollar proyectos con buena estructura, que sean escalables y cubran necesidades a posibles problemas de la vida real.',
       {
         heading: 'Example focus areas',
         bullets: [
