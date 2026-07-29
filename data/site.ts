@@ -71,21 +71,21 @@ export const site = {
   ],
   featuredProjects: [
     {
-      title: 'Lumen Studio Website',
-      period: '2025',
-      summary: 'Built a polished portfolio experience with accessible UI, motion-led interactions, and reusable components.',
-      solution: 'Designed a modular component system with Astro and Tailwind CSS, ensuring consistent brand experience across all breakpoints.',
-      impact: 'Achieved sub-1s page load metrics and 95+ Lighthouse scores through optimized asset delivery and lazy loading strategies.',
+      title: 'Buscador de localizaciones (Alpha)',
+      period: '2026',
+      summary: 'Una aplicación móvil donde debemos llegar a las localizaciones marcadas.',
+      solution: 'Utilizando Kotlin y JetPack Compose, creamos una sencilla aplicación con los datos de las localizaciones ya cargados.',
+      impact: 'Una aplicación que se puede utilizar para realizar gymkanas de búsqueda de objetivos o aplicaciones para localizar lugares relevantes.',
       image: 'astro-01.webp',
       imageAlt: 'Lumen Studio website showcase',
       techCategories: [
         {
           category: 'Frontend',
-          items: ['TypeScript', 'Astro', 'Tailwind CSS', 'Responsive Design'],
+          items: ['Kotlin', 'JetPack Compose'],
         },
         {
           category: 'Performance',
-          items: ['Asset Optimization', 'Lazy Loading', 'Image CDN'],
+          items: ['GeoFencing', 'Battery Management'],
         },
       ],
     },
