@@ -20,7 +20,7 @@ export const site = {
     role: 'Desarrollador de Aplicaciones Multiplataformas',
     tagline: 'Comenzando con el desarrollo, intentando seguir buenas prácticas creando código sostenible.',
     contact: 'Abierto a la colaboración con cualquier equipo de desarrollo de software.',
-    avatarSrc: '/favicon.svg',
+    avatarSrc: '/foto.jpg',
     avatarAlt: 'José Luis Gómez',
   },
   about: {
