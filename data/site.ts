@@ -111,15 +111,15 @@ export const site = {
   ],
   projectArchivePage: {
     title: 'All projects',
-    description: 'Project archive: dates, roles, and technologies across representative engagements.',
-    intro: 'A concise archive of engagements and representative work.',
+    description: 'Archivo de proyectos, donde se especifica el rol realizado y las herramientas utilizadas.',
+    intro: 'Un archivo de los diferentes trabajos realizados.',
   },
   projectArchive: [
-    { date: '2025', project: 'Design system rollout', role: 'Frontend', techStack: 'Astro, CSS, Storybook' },
-    { date: '2024', project: 'Checkout reliability', role: 'Full-stack', techStack: 'TypeScript, Postgres, Redis' },
-    { date: '2024', project: 'Auth hardening', role: 'Backend', techStack: 'OAuth2, JWT, rate limits' },
-    { date: '2023', project: 'Analytics pipeline', role: 'Data', techStack: 'SQL, dbt, warehouse' },
-    { date: '2023', project: 'Mobile web refresh', role: 'Frontend', techStack: 'HTML, CSS, a11y audits' },
+    { date: '2026', project: 'Travel Together', role: 'Backend', techStack: 'Kotlin, JetPack Compose, SupaBase' },
+    { date: '2026', project: 'Iglesias de Serrablo', role: 'Backend', techStack: 'Kotlin, JetPack Compose' },
+    { date: '2026', project: 'Buscador', role: 'Full-Stack', techStack: 'Kotlin, JetPack Compose' },
+    { date: '2026', project: 'Gestión IES (Administrador)', role: 'Full-Stack', techStack: 'React, Docker, SQL' },
+    { date: '2026', project: 'Gestión IES (Profesor)', role: 'Full-Stack', techStack: 'Kotlin, JetPack Compose, Docker, SQL' },
   ],
   contact: {
     email: 'joseluisgomezencinar@gmail.com',
